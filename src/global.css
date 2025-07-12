@@ -1,0 +1,32 @@
+:root {
+  /*Configurações padrão*/
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5fa;
+
+  font-family: "Noto Sans", sans-serif;
+}
+
+input,
+button {
+  /*Tudo que for input vai usar essa familia de fonte*/
+  font-family: "Noto Sans", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+button:houver {
+  /*Quando passar o mouse sobre o botão*/
+  filter: brightness(0);
+}
