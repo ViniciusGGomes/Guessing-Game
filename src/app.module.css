@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex; /*Centralizar a aplicação*/
+  justify-content: center;
+  align-items: center;
+}
+
+.container main {
+  width: 556px;
+
+  background-color: #ffffff;
+  padding: 2rem;
+  padding-top: 4.5rem;
+  border-radius: 0.75rem;
+}
+
+.word {
+  width: 100%;
+  display: flex; /*Faz um ficar ao lado do outro*/
+  justify-content: center;
+  flex-wrap: wrap; /*Quando a palavra for grande as caixinhas irem pra baixo*/
+  gap: 1rem; /*Espaçamento de cada letra na lateral*/
+
+  margin: 2.5rem 0; /*Espaçamento da margem*/
+}
+
+.guess {
+  display: flex;
+  gap: 0.75rem; /*Espaço lateral*/
+
+  margin-top: 0.75rem; /*Afastar um pouco do h3(Palpite)*/
+}
