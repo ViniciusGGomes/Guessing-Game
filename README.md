@@ -8,7 +8,7 @@ O **Guessing Game** é um jogo interativo de adivinhação de palavras onde o jo
 
 ## 📸 Preview
 
-> _Adicione aqui uma imagem ou gif do projeto rodando_
+<img width="707" height="900" alt="Image" src="https://github.com/user-attachments/assets/867524a6-6f25-4861-816c-121b3b435efe" />
 
 ## 🧠 Funcionalidades
 
